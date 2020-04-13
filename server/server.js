@@ -6,8 +6,7 @@ const express = require('express');
 
 const app = express();
 
-app.use(require('./routes/usuario'));
-
+app.use(require('./routes/index'));
 
 console.log(process.env.urlDb);
 
