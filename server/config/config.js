@@ -13,6 +13,7 @@ let urlDb;
 if (process.env.NODE_ENV == 'dev')
     urlDb = 'mongodb://localhost/cafe';
 else
-    urlDb = 'mongodb + srv: //jijalba:<password>@cafe-kibjr.gcp.mongodb.net/cafecito';
+    urlDb = 'mongodb+srv://jijalba:154179521@cafe-kibjr.gcp.mongodb.net/cafecito?retryWrites=true&w=majority';
+
 
 process.env.urlDb = urlDb;
